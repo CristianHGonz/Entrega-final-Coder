@@ -1,0 +1,120 @@
+.container {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.logo {
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 35px;
+  filter: drop-shadow(10px 10px 10px #303232);
+}
+.logo img {
+  width: 40rem;
+  height: 6.25rem;
+  margin-bottom: 1.5rem 0;
+}
+/*index*/
+h1 {
+  text-align: center;
+  color: #323232;
+  font-size: 40px;
+  margin: 2rem 0;
+}
+.content {
+  filter: drop-shadow(10px 10px 10px #303232);
+}
+.primary-text {
+  color: #323232;
+  text-align: justify;
+}
+.main-Conteiner {
+  display: grid;
+  grid-template-areas:
+    "img1 img2 img3 img4"
+    "secondary-title1 secondary-title2 secondary-title3 secondary-title4"
+    "text-left text-right text-left1 text-right1";
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  margin: 1rem;
+}
+
+.img1 img {
+  grid-area: img1;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.img2 img {
+  grid-area: img2;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+.img3 img {
+  grid-area: img3;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+.img4 img {
+  grid-area: img4;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+/*.secondary-text {
+  display: grid;
+  grid-template-areas:
+    "secondary-title1 secondary-title2 secondary-title3 secondary-title4"
+    "text-left text-right text-left1 text-right1";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 0rem;
+}*/
+.text-left {
+  grid-area: text-left;
+  text-align: justify;
+  padding: 1rem;
+}
+.text-right {
+  grid-area: text-right;
+  text-align: justify;
+  padding: 1rem;
+}
+.secondary-title1 {
+  grid-area: secondary-title1;
+  text-align: center;
+  font-size: 26px;
+  align-content: center;
+}
+
+.secondary-title2 {
+  grid-area: secondary-title2;
+  text-align: center;
+  font-size: 26px;
+  align-content: center;
+}
+.secondary-title3 {
+  grid-area: secondary-title3;
+  text-align: center;
+  font-size: 26px;
+  align-content: center;
+}
+.text-left1 {
+  grid-area: text-left1;
+  text-align: justify;
+  padding: 1rem;
+}
+.secondary-title4 {
+  grid-area: secondary-title4;
+  text-align: center;
+  font-size: 26px;
+  align-content: center;
+}
+.text-right1 {
+  grid-area: text-right1;
+  text-align: justify;
+  padding: 1rem;
+}

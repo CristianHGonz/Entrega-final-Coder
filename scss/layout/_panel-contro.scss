@@ -1,0 +1,50 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixin-extend" as *;
+@use "../utilities/animaciones" as *;
+.container-panel-control {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "img-panel-control form";
+  grid-template-rows: 1fr;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo .logo-empresa {
+  display: none;
+}
+.logo-panel-control {
+  width: 70%;
+  margin-top: 10rem;
+}
+.img-panel-control {
+  grid-area: img-panel-control;
+}
+form h4 {
+  margin: 1rem 0;
+}
+.form {
+  margin-top: 10rem;
+  grid-area: form;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+}
+.button-ingresar,
+.form-label {
+  margin: 30px;
+}
+input[type="text"] {
+  text-align: center;
+}
+input[type="password"] {
+  text-align: center;
+}
+.button-ingresar .btn-primary {
+  background-color: $bg-nav-fotter;
+}
+.button-ingresar .btn-primary:hover {
+  background-color: $bg-nav-fotter;
+  color: #f4f9f9;
+}
