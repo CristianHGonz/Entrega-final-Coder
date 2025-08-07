@@ -10,7 +10,13 @@
       href="asset/ico/Imagotipo-Villa-Giardino.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,10 +29,12 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!--ANIMACIONES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <nav class="nav-bar">
+      <nav class="nav-bar" data-aos="fade-down" data-aos-duration="1500">
         <div class="nav-bar01">
           <ul>
             <li><a href="index.html">HOME</a></li>
@@ -38,9 +46,12 @@
         </div>
       </nav>
     </header>
-    <main class="container">
+    <main class="container" data-aos="zoom-in-up" data-aos-duration="1500">
       <div class="logo">
-        <img src="asset/images/LogoEmpresa/Logotipo-Villa-Giardino-Horiz.png" alt="logo empresa" />
+        <img
+          src="asset/images/LogoEmpresa/Logotipo-Villa-Giardino-Horiz.png"
+          alt="logo empresa"
+        />
       </div>
       <h1>Servicios de internet</h1>
       <section>
@@ -72,7 +83,10 @@
         </article>
         <div class="main-Conteiner">
           <div class="content img1">
-            <img src="asset/images/index/img1.jpg" alt="Obrero de fibra óptica" />
+            <img
+              src="asset/images/index/img1.jpg"
+              alt="Obrero de fibra óptica"
+            />
           </div>
           <div class="content img2">
             <img
@@ -81,13 +95,14 @@
             />
           </div>
           <div class="content img3">
-            <img src="asset/images/index/img3.jpg" alt="salon de eventos multiuso" />
+            <img
+              src="asset/images/index/img3.jpg"
+              alt="salon de eventos multiuso"
+            />
           </div>
           <div class="content img4">
             <img src="asset/images/index/img4.jpg" alt="escuela con internet" />
           </div>
-
-          <!-- <div class="secondary-text"> -->
           <h2 class="secondary-title1">Obras y más obras</h2>
           <p class="text-left">
             <strong>Obra en Crecimiento </strong> <br />Expansión de la Red de
@@ -188,15 +203,15 @@
           </p>
         </div>
       </section>
-      <div class="whatsapp">
-        <a href="https://wa.me/3548338899" target="_blank"
-          ><img
-            class="logo-whatsapp"
-            src="asset/images/redes/icons8-whatsapp-96.png"
-            alt="logo whatsapp"
-        /></a>
-      </div>
     </main>
+    <div class="whatsapp">
+      <a href="https://wa.me/3548338899" target="_blank"
+        ><img
+          class="logo-whatsapp"
+          src="asset/images/redes/icons8-whatsapp-96.png"
+          alt="logo whatsapp"
+      /></a>
+    </div>
     <footer>
       <div class="footer">
         <p class="text-footer">
@@ -211,5 +226,9 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

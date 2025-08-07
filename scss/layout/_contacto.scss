@@ -1,6 +1,5 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixin-extend" as *;
-@use "../utilities/animaciones" as *;
 
 .contacto-primary {
   display: grid;
@@ -8,8 +7,7 @@
     "contacto-ubicacion contacto-form"
     "contacto-siguenos contacto-form";
   gap: 10px;
-  text-align: center;
-  align-items: center;
+  @include alineacion(center);
 }
 .contacto-ubicacion {
   grid-area: contacto-ubicacion;
@@ -41,6 +39,7 @@
 }
 .btn-enviar .btn-primary {
   background-color: $bg-nav-fotter;
+  margin: 1rem;
 }
 .btn-enviar .btn-primary:hover {
   background-color: #136788;

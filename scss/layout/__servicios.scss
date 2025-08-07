@@ -1,6 +1,5 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixin-extend" as *;
-@use "../utilities/animaciones" as *;
 
 .servicios-titulo {
   text-decoration: underline;
@@ -22,15 +21,14 @@
   grid-template-areas: "container-table img-ftth";
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
-  text-align: center;
-  align-items: center;
+  @include alineacion(center);
   gap: 10px;
 }
 .container-table {
   grid-area: container-table;
 }
 .fibra-optica {
-  text-align: center;
+  @include alineacion(center);
 }
 .img-ftth {
   grid-area: img-ftth;
@@ -47,8 +45,7 @@
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
   gap: 10px;
-  text-align: center;
-  align-items: center;
+  @include alineacion(center);
   margin-bottom: 2rem;
 }
 .wireless-img {

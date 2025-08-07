@@ -1,12 +1,12 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixin-extend" as *;
-@use "../utilities/animaciones" as *;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  color: $text-color-secondary
+  color: $text-color-secondary;
 }
 body {
   display: flex;
@@ -19,7 +19,7 @@ main {
 
 header,
 footer {
-  background-color: $bg-nav-fotter
+  background-color: $bg-nav-fotter;
 }
 .container,
 .nav-bar,

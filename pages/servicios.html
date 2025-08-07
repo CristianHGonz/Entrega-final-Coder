@@ -7,10 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="shortcut icon"
-      href="../image/Imagotipo-Villa-Giardino.png"
+      href="../asset/images/LogoEmpresa/Imagotipo-Villa-Giardino.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/style.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,13 +28,15 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!--ANIMACIONES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <nav class="nav-bar">
+      <nav class="nav-bar" data-aos="fade-down" data-aos-duration="1500">
         <div class="nav-bar01">
           <ul>
-              <li><a href="../index.html">HOME</a></li>
+            <li><a href="../index.html">HOME</a></li>
             <li><a href="servicios.html">SERVICIOS</a></li>
             <li><a href="somos.html">QUIENES SOMOS</a></li>
             <li><a href="panel-control.html">PANEL DE USUARIO</a></li>
@@ -38,10 +45,15 @@
         </div>
       </nav>
     </header>
-    <main class="container">
+    <main
+      class="container"
+      class="container"
+      data-aos="zoom-in-up"
+      data-aos-duration="1500"
+    >
       <div class="logo">
         <img
-          src="../image/Logotipo-Villa-Giardino-Horiz.png"
+          src="../asset/images/LogoEmpresa/Logotipo-Villa-Giardino-Horiz.png"
           alt="logo empresa"
         />
       </div>
@@ -90,7 +102,7 @@
         <div class="fibra-optica">
           <img
             class="img-ftth"
-            src="../image/speedtest.gif"
+            src="../asset/images/Servicios/speedtest.gif"
             alt="Imagen representativa de fibra óptica"
           />
         </div>
@@ -112,7 +124,7 @@
         <div class="wireless-conteiner">
           <img
             class="wireless-img"
-            src="../image/wireless.jpg"
+            src="../asset/images/Servicios/wireless.jpg"
             alt="Imagen representativa de wireless"
           />
         </div>
@@ -146,16 +158,15 @@
           </p>
         </div>
       </div>
-
-      <div class="whatsapp">
-        <a href="https://wa.me/3548338899" target="_blank"
-          ><img
-            class="logo-whatsapp"
-            src="../image/icons8-whatsapp-96.png"
-            alt="logo whatsapp"
-        /></a>
-      </div>
     </main>
+    <div class="whatsapp">
+      <a href="https://wa.me/3548338899" target="_blank"
+        ><img
+          class="logo-whatsapp"
+          src="../asset/images/redes/icons8-whatsapp-96.png"
+          alt="logo whatsapp"
+      /></a>
+    </div>
     <footer>
       <div class="footer">
         <p class="text-footer">
@@ -169,5 +180,9 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -1,7 +1,8 @@
-
+@use "../utilities/variables" as *;
+@use "../utilities/mixin-extend" as *;
 
 .nav-bar01 {
-  background-color: #158cba;
+  background-color: $bg-nav-fotter;
   border-radius: 0 0 10px 10px;
   display: flex;
   justify-content: center;
@@ -11,28 +12,25 @@
   z-index: 2;
   width: 1400px;
   margin-top: 0;
-}
-
-.nav-bar ul {
-  display: flex;
-  margin: 1rem;
-}
-
-.nav-bar ul li {
-  margin: 0 5rem;
-  list-style: none;
-}
-
-.nav-bar ul li a {
-  color: #f0f0f0;
-  text-decoration: none;
-  position: relative;
-  padding: 10px;
-  font-size: 0.75rem;
-  font-weight: bolder;
+  ul {
+    display: flex;
+    margin: 1rem;
+    li {
+      margin: 0 5rem;
+      list-style: none;
+      a {
+        color: #f0f0f0;
+        text-decoration: none;
+        position: relative;
+        padding: 10px;
+        font-size: 0.75rem;
+        font-weight: bolder;
+      }
+    }
+  }
 }
 .nav-bar ul li a:hover {
-  color: #323232;
+  color: $text-color-secondary;
   text-decoration: underline;
   border: 1px solid #f0f0f0;
   border-radius: 10px;

@@ -1,65 +1,24 @@
 @use "../utilities/variables" as *;
-@use "../utilities/animaciones" as *;
 
 .img-index {
-    width: 250px;
+  width: 250px;
   height: 250px;
   border-radius: 15px;
+  margin-left: 1rem;
+  transition: 0.5s;
 }
-.text-nota-index{
-    
+.text-nota-index {
   text-align: justify;
   padding: 1rem;
 }
-.title-nota-index{
-    text-align: center;
+.title-nota-index {
+  text-align: center;
   font-size: 26px;
   align-content: center;
 }
 
 /*link de la barra de nav*/
-@mixin link($color) {
-  color: $color;
-  text-decoration: none;
-  position: relative;
-  font-size: 1rem;
-  font-weight: 900;
-  font-family: $secondary-text;
-  letter-spacing: 0.2rem;
-  margin-right: 1rem;
-}
-
-// texto de logo en nav
-@mixin logo($text-color) {
-  margin: 1rem 1rem;
-  color: $text-color;
-  font-family: $secondary-text;
-  font-weight: 200;
-  font-size: 1.5rem;
-}
-//formato de titulo
-@mixin title($text-color) {
-  display: inline-flex;
-  color: $text-color;
-  width: 100%;
-  margin-top: 8rem;
-  font-family: $title-text;
-  font-size: 2.5rem;
-  justify-self: center;
-  justify-content: center;
-}
-
-//hovers
-@mixin hover($color) {
-  text-decoration: underline;
-  text-decoration-thickness: 0.25rem;
-  color: $color;
-  transition: all 10ms ease-in-out;
-}
-@mixin footers($color-text) {
-  width: 100%;
-  text-align: center;
-  color: $color-text;
-  font-family: $secondary-text;
-  margin-top: 2rem;
+@mixin alineacion($center) {
+  text-align: $center;
+  align-items: center;
 }

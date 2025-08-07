@@ -1,6 +1,5 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixin-extend" as *;
-@use "../utilities/animaciones" as *;
 
 @media (max-width: 1400px) {
   .container,
@@ -8,7 +7,6 @@
   .nav-bar01,
   footer {
     width: 100%;
-    
   }
 
   .logo img {
@@ -33,14 +31,7 @@
   .nav-bar ul li {
     margin: 1rem;
   }
-  .whatsapp {
-    right: 1rem;
-    bottom: 3.5rem;
-    z-index: 4;
-  }
-  .logo-whatsapp {
-    width: 3rem;
-  }
+
   /*quienes somos*/
   .img-edificio,
   .img-crecimiento,

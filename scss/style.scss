@@ -1,10 +1,11 @@
 @use "base/base";
-@use "utilities/variables";
-@use "utilities/mediaquery";
-@use "utilities/mixin-extend";
 @use "layout/navbar";
 @use "layout/index";
 @use "layout/_servicios";
 @use "layout/quienes-somos";
 @use "layout/panel-contro";
+@use "layout/contacto";
 @use "layout/footer.scss";
+@use "utilities/variables";
+@use "utilities/mixin-extend";
+@use "utilities/mediaquery";
