@@ -60,16 +60,19 @@ footer {
   width: 1400px;
   margin-top: 0;
 }
-.nav-bar01 ul {
+
+.nav-bar ul {
   display: flex;
   margin: 1rem;
 }
-.nav-bar01 ul li {
+
+.nav-bar ul li {
   margin: 0 5rem;
   list-style: none;
 }
-.nav-bar01 ul li a {
-  color: #f0f0f0;
+
+.nav-bar ul li a {
+  color: #f4f4f4;
   text-decoration: none;
   position: relative;
   padding: 10px;
