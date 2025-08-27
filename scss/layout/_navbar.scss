@@ -12,25 +12,25 @@
   z-index: 2;
   width: 1400px;
   margin-top: 0;
-}
 
-.nav-bar ul {
-  display: flex;
-  margin: 1rem;
-}
+  ul {
+    display: flex;
+    margin: 1rem;
 
-.nav-bar ul li {
-  margin: 0 5rem;
-  list-style: none;
-}
+    li {
+      margin: 0 5rem;
+      list-style: none;
+    }
 
-.nav-bar ul li a {
-  color: $text-color-primary;
-  text-decoration: none;
-  position: relative;
-  padding: 10px;
-  font-size: 0.75rem;
-  font-weight: bolder;
+    a {
+      color: $text-color-primary;
+      text-decoration: none;
+      position: relative;
+      padding: 10px;
+      font-size: 0.75rem;
+      font-weight: bolder;
+    }
+  }
 }
 .nav-bar ul li a:hover {
   color: $text-color-secondary;
