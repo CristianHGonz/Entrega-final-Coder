@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Cristian H González</h1>
 <h3 align="center">Aprendiendo frontend en Coder</h3>
+<p align="left">Este sitio esta pensado para una cooperativa de servicio de telecomunicación, con los próximos cursos el sitio ira siendo más interactivo y los botones podrán ser funcionales.
+</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
